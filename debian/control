@@ -1,0 +1,14 @@
+Source: kerub
+Section: Network
+Priority: optional
+Maintainer: Laszlo Hornyak <laszlo.hornyak@gmail.com>
+XSBC-Original-Maintainer: Laszlo Hornyak <laszlo.hornyak@gmail.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7), maven
+Homepage: http://github.com/K0zka/kerub
+
+Package: kerub
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Kerub is an Infrastructure as a Service prototype
+
